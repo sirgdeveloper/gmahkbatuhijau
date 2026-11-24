@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0f4aa0">
+  <title>GMAHK Batu Hijau — Gereja Masehi Advent Hari Ketujuh, Maluk, Sumbawa Barat</title>
+  <meta name="description" content="Website resmi GMAHK Batu Hijau — Gereja Masehi Advent Hari Ketujuh di Maluk, Sumbawa Barat, NTB. Jadwal ibadah Sabat, khotbah, renungan, pelayanan, materi unduhan, dan donasi persembahan.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GMAHK Batu Hijau — Gereja Masehi Advent Hari Ketujuh">
+  <meta property="og:description" content="Beribadah, bertumbuh, dan melayani bersama di Maluk, Sumbawa Barat. Jadwal ibadah, khotbah, renungan, dan info donasi gereja.">
+  <meta property="og:image" content="assets/img/logo.webp">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/img/logo.webp" type="image/webp">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ChurchOrGovernmentalOrganization",
+    "name": "GMAHK Batu Hijau",
+    "description": "Gereja Masehi Advent Hari Ketujuh — Jemaat Batu Hijau",
+    "address": { "@type": "PostalAddress", "addressLocality": "Maluk", "addressRegion": "Nusa Tenggara Barat", "addressCountry": "ID" },
+    "logo": "assets/img/logo.webp"
+  }
+  </script>
+</head>
+<body>
+<a class="skip" href="#konten">Lewati ke konten</a>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#beranda" aria-label="Beranda GMAHK Batu Hijau">
+      <img class="brand-logo" src="assets/img/logo.webp" alt="Logo GMAHK Batu Hijau" width="52" height="52">
+      <span><b>GMAHK Batu Hijau</b><small>Maluk • Sumbawa Barat • NTB</small></span>
+    </a>
+    <div style="display:flex;gap:8px;align-items:center">
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Ganti tema terang/gelap" title="Ganti tema">🌓</button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mainNav">☰ Menu</button>
+    </div>
+    <nav class="nav" id="mainNav" aria-label="Navigasi utama">
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#pelayanan">Pelayanan</a>
+      <a href="#belajar">Mari Belajar</a>
+      <a href="#wawasan">Wawasan</a>
+      <a href="#jadwal">Jadwal</a>
+      <a href="#dokumentasi">Dokumentasi</a>
+      <a href="#materi">Materi</a>
+      <a href="#donasi">Donasi</a>
+      <a class="nav-cta" href="#doa">Mari Berdoa</a>
+    </nav>
+  </div>
+</header>
+
+<main id="konten">
+
+  <!-- Ayat hari ini -->
+  <section class="daily" id="ayatHariIni" aria-label="Ayat Alkitab hari ini" style="padding:0">
+    <img class="daily-bg" id="dvBg" src="assets/img/ayat-sunrise.webp" alt="">
+    <div class="daily-shade" aria-hidden="true"></div>
+    <div class="daily-in">
+      <span class="daily-date" id="dvDate">Ayat Hari Ini</span>
+      <blockquote id="dvText">Memuat ayat…</blockquote>
+      <div class="daily-ref" id="dvRef"></div>
+      <p class="daily-theme" id="dvTheme"></p>
+      <div class="daily-actions">
+        <button class="btn btn-gold" type="button" id="dvCopy">Salin Ayat</button>
+        <a class="btn btn-ghost" href="#belajar">Baca Renungan Hari Ini</a>
+      </div>
+      <p class="toast" id="dvToast" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="pill" id="heroPill"></span>
+        <h1 id="heroTitle"></h1>
+        <p class="role" id="heroRole"></p>
+        <p class="lead" id="heroLead"></p>
+        <blockquote class="verse-card">
+          <p id="heroVerse"></p>
+          <cite id="heroVerseRef"></cite>
+        </blockquote>
+        <div class="btn-row" style="margin-top:22px">
+          <a class="btn btn-gold" href="#jadwal">Jadwal Ibadah</a>
+          <a class="btn btn-outline" href="#khotbah">Dengarkan Khotbah</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img id="heroImg" src="assets/img/hero.webp" alt="" width="1200" height="900">
+        <div class="next-card" aria-live="off">
+          <div><b id="sabbathLabel"></b><span id="sabbathDetail"></span></div>
+          <div class="count" id="countdown">—</div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap duo" id="duo"></div>
+  </div>
+
+  <!-- Tentang -->
+  <section id="tentang" style="padding-top:40px">
+    <div class="wrap">
+      <h2 class="section-title" id="tentangTitle"></h2>
+      <p class="section-sub" id="tentangSub"></p>
+      <div class="mv">
+        <div class="mv-card"><div class="big">Misi</div><p id="misiText"></p></div>
+        <div class="mv-card"><div class="big">Visi</div><p id="visiText"></p></div>
+      </div>
+      <div class="pastor">
+        <img id="pastorImg" src="" alt="" width="260" height="260" loading="lazy">
+        <div>
+          <h3 id="pastorName"></h3>
+          <p class="jabatan" id="pastorRole"></p>
+          <p id="pastorBio" style="color:var(--muted)"></p>
+          <p id="pastorAjakan" style="color:var(--muted)"></p>
+          <a class="btn btn-outline" href="#doa">Hubungi Pendeta</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Pelayanan -->
+  <section id="pelayanan">
+    <div class="wrap">
+      <h2 class="section-title" id="pelayananTitle"></h2>
+      <p class="section-sub" id="pelayananSub"></p>
+      <div class="cards6" id="svcGrid"></div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Berita -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title" id="beritaTitle"></h2>
+      <p class="section-sub" id="beritaSub"></p>
+      <div class="news-grid">
+        <div id="newsMain" style="display:contents"></div>
+        <aside class="side" aria-label="Berita lainnya">
+          <h3>Berita Lainnya</h3>
+          <div id="newsSide"></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wawasan -->
+  <section id="wawasan" class="soft">
+    <div class="wrap">
+      <h2 class="section-title" id="wawasanTitle"></h2>
+      <p class="section-sub" id="wawasanSub"></p>
+      <div class="art-grid" id="artGrid"></div>
+    </div>
+  </section>
+
+  <!-- Khotbah -->
+  <section id="khotbah">
+    <div class="wrap">
+      <h2 class="section-title" id="khotbahTitle"></h2>
+      <p class="section-sub" id="khotbahSub"></p>
+      <div class="filters" id="filters" role="group" aria-label="Saring khotbah"></div>
+      <div class="sermon-list" id="sermonList"></div>
+      <p class="empty" id="sermonEmpty"></p>
+    </div>
+  </section>
+
+  <!-- Mari belajar -->
+  <section id="belajar" class="soft">
+    <div class="wrap dev-grid">
+      <img id="renunganImg" src="assets/img/renungan.webp" alt="" loading="lazy">
+      <div class="dev-box">
+        <div class="date" id="devDate"></div>
+        <blockquote id="devVerse"></blockquote>
+        <div class="ref" id="devRef"></div>
+        <p class="body" id="devBody"></p>
+        <div class="btn-row" style="margin-top:16px">
+          <button class="small-btn solid" type="button" id="copyVerse">Salin Ayat</button>
+          <button class="small-btn" type="button" id="nextVerse">Renungan Berikutnya</button>
+        </div>
+        <p class="toast" id="toast" aria-live="polite"></p>
+        <p class="note" id="devNote"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jadwal -->
+  <section id="jadwal">
+    <div class="wrap">
+      <h2 class="section-title" id="jadwalTitle"></h2>
+      <p class="section-sub" id="jadwalSub"></p>
+      <div class="sched" id="schedGrid"></div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Kesaksian -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title" id="kesaksianTitle"></h2>
+      <p class="section-sub" id="kesaksianSub"></p>
+      <div class="testi" id="testiGrid"></div>
+    </div>
+  </section>
+
+  <!-- Dokumentasi -->
+  <section id="dokumentasi" class="soft">
+    <div class="wrap">
+      <h2 class="section-title" id="dokTitle"></h2>
+      <p class="section-sub" id="dokSub"></p>
+      <div class="gallery" id="gallery"></div>
+      <div class="empty-box" id="galleryEmpty"></div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Materi -->
+  <section id="materi">
+    <div class="wrap">
+      <h2 class="section-title" id="materiTitle"></h2>
+      <p class="section-sub" id="materiSub"></p>
+      <div class="file-grid" id="fileGrid"></div>
+      <div class="empty-box" id="fileEmpty"></div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Donasi -->
+  <section id="donasi" class="soft">
+    <div class="wrap">
+      <h2 class="section-title" id="donasiTitle"></h2>
+      <p class="section-sub" id="donasiSub"></p>
+      <div class="donate-box">
+        <div>
+          <h3 style="font-size:1.25rem;margin-bottom:8px;color:var(--heading)">Rekening Gereja</h3>
+          <p style="color:var(--muted);margin:0 0 14px" id="donasiCatatan"></p>
+          <ul id="donasiPanduan"></ul>
+          <div class="btn-row" style="margin-top:18px">
+            <a class="btn btn-blue" href="#doa">Konfirmasi via Formulir Doa &amp; Kontak</a>
+          </div>
+        </div>
+        <div class="bank-card" aria-label="Detail rekening donasi">
+          <div class="bank" id="donBank"></div>
+          <div class="bank-num" id="donNumber"></div>
+          <div class="bank-name">a/n <b id="donName"></b></div>
+          <div class="copy-row">
+            <button type="button" class="btn-white small-btn" id="copyRek" style="border:none;color:#0a2a5e;background:#fff">Salin Nomor Rekening</button>
+            <button type="button" class="btn-ghostw" id="copyDetail">Salin Detail Lengkap</button>
+          </div>
+          <p class="toast" id="donToast" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doa & kontak -->
+  <section id="doa">
+    <div class="wrap">
+      <h2 class="section-title" id="doaTitle"></h2>
+      <p class="section-sub" id="doaSub"></p>
+      <div class="pray-grid">
+        <form class="pray" id="prayForm" novalidate>
+          <label for="fNama">Nama Anda</label>
+          <input type="text" id="fNama" placeholder="cth: Maria" autocomplete="name" maxlength="80">
+          <label for="fKat">Kebutuhan</label>
+          <select id="fKat"></select>
+          <label for="fPesan">Ceritakan seperlunya</label>
+          <textarea id="fPesan" placeholder="Tuliskan pokok doa atau pesan Anda di sini…" maxlength="1000"></textarea>
+          <div class="btn-row" style="margin-top:18px">
+            <button class="btn btn-blue" type="submit" id="waBtn">Kirim via WhatsApp</button>
+            <a class="btn btn-outline" id="mailBtn" href="#" hidden>Kirim via Email</a>
+          </div>
+          <p class="toast" id="formToast" aria-live="polite"></p>
+        </form>
+        <div>
+          <div class="contact-card">
+            <h3>Kontak Gereja</h3>
+            <p><b>Pendeta Jemaat:</b> <span id="cPastor"></span><br>
+               <b>WhatsApp:</b> <span id="cWa"></span><br>
+               <b>Email:</b> <span id="cEmail"></span><br>
+               <b>Lokasi:</b> <span id="cLokasi"></span><br>
+               <b>Jam respons:</b> <span id="cJam"></span></p>
+            <div class="social" id="socialContact"></div>
+            <p id="cDarurat"></p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:44px">
+        <h3 class="subhead" id="faqTitle" style="font-size:1.4rem;color:var(--heading)"></h3>
+        <div class="faq" id="faq" style="margin-top:14px"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <div class="foot-brand">
+        <img src="assets/img/logo.webp" alt="Logo GMAHK Batu Hijau" width="56" height="56" loading="lazy">
+        <div><b>GMAHK Batu Hijau</b><span id="fLokasi"></span></div>
+      </div>
+      <p style="margin-top:14px" id="fTentang"></p>
+      <div class="social" id="socialFooter"></div>
+    </div>
+    <div><h4>Navigasi</h4><a href="#tentang">Tentang Kami</a><a href="#pelayanan">Pelayanan</a><a href="#jadwal">Jadwal Ibadah</a><a href="#dokumentasi">Dokumentasi Kegiatan</a><a href="#doa">Hubungi Kami</a></div>
+    <div><h4>Mari Belajar</h4><a href="#belajar">Renungan Harian</a><a href="#khotbah">Khotbah Terbaru</a><a href="#wawasan">Wawasan</a><a href="#belajar">Pendalaman Alkitab Online</a></div>
+    <div><h4>Dukung &amp; Ikuti</h4><a href="#donasi">Donasi &amp; Persembahan</a><a href="#materi">Materi &amp; Unduhan</a><a href="#doa">Permohonan Doa</a><a href="#pelayanan">Konseling Keluarga</a></div>
+  </div>
+  <div class="copyright" id="fCopy"></div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas">↑</button>
+
+<noscript><p style="padding:20px;text-align:center">Website ini memerlukan JavaScript untuk menampilkan konten. Silakan aktifkan JavaScript di peramban Anda.</p></noscript>
+<script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "GMAHK Batu Hijau — Gereja Masehi Advent Hari Ketujuh",
+  "short_name": "GMAHK Batu Hijau",
+  "description": "Website resmi GMAHK Batu Hijau, Maluk, Sumbawa Barat, NTB.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0e1622",
+  "theme_color": "#0f4aa0",
+  "lang": "id",
+  "icons": [
+    { "src": "assets/img/logo.webp", "sizes": "any", "type": "image/webp", "purpose": "any" }
+  ]
+}

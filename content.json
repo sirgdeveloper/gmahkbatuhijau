@@ -1,0 +1,538 @@
+{
+  "_petunjuk": "File ini berisi SELURUH isi website. Ubah teks di sini lalu commit ulang di GitHub. Jangan hapus tanda kutip atau koma. Kosongkan nilai (\"\") untuk menyembunyikan tombol/bagian yang belum tersedia.",
+  "gereja": {
+    "nama": "GMAHK Batu Hijau",
+    "nama_lengkap": "Gereja Masehi Advent Hari Ketujuh — Jemaat Batu Hijau",
+    "lokasi": "Maluk, Kabupaten Sumbawa Barat, Nusa Tenggara Barat",
+    "lokasi_singkat": "Maluk • Sumbawa Barat • NTB",
+    "deskripsi_meta": "Website resmi GMAHK Batu Hijau — Gereja Masehi Advent Hari Ketujuh di Maluk, Sumbawa Barat, NTB. Jadwal ibadah Sabat, khotbah, renungan, pelayanan, materi unduhan, dan donasi persembahan.",
+    "whatsapp": "",
+    "email": "",
+    "jam_respons": "Senin–Jumat, 09.00–17.00 WITA",
+    "catatan_darurat": "Untuk keadaan darurat pastoral (kedukaan, sakit keras), silakan telepon langsung — pendeta atau diaken jaga akan merespons.",
+    "footer_tentang": "Gereja Masehi Advent Hari Ketujuh — Jemaat Batu Hijau, Maluk, Kabupaten Sumbawa Barat, Nusa Tenggara Barat, Indonesia",
+    "hak_cipta": "© 2026 GMAHK Jemaat Batu Hijau • Maluk, Sumbawa Barat, Nusa Tenggara Barat"
+  },
+  "sosial": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "tiktok": "",
+    "saluran_whatsapp": "",
+    "spotify": ""
+  },
+  "beranda": {
+    "pill": "✦ Gereja Masehi Advent Hari Ketujuh — Jemaat Batu Hijau",
+    "judul": "Selamat datang di",
+    "judul_sorot": "GMAHK Batu Hijau",
+    "subjudul": "Beribadah, bertumbuh, dan melayani bersama di Maluk, Sumbawa Barat",
+    "deskripsi": "Kami adalah jemaat Gereja Masehi Advent Hari Ketujuh di Batu Hijau, Maluk, Kabupaten Sumbawa Barat, Nusa Tenggara Barat. Pintu kami terbuka bagi siapa saja yang rindu beribadah, belajar Alkitab, dan menemukan pengharapan di dalam Yesus Kristus.",
+    "ayat": "Marilah kepada-Ku, semua yang letih lesu dan berbeban berat, Aku akan memberi kelegaan kepadamu.",
+    "ayat_ref": "Matius 11:28 (TB)",
+    "gambar": "assets/img/hero.webp",
+    "gambar_alt": "Ilustrasi jemaat GMAHK Batu Hijau sedang beribadah dan memuji Tuhan bersama",
+    "kartu_sabat_judul": "Ibadah Sabat Berikutnya",
+    "kartu_sabat_detail": "Sekolah Sabat 08.30 • Khotbah 11.00 WITA",
+    "kotak": [
+      {
+        "judul": "Kami siap mendengarkan dan mendoakan Anda",
+        "teks": "Apakah Anda sedang menghadapi tantangan yang terasa terlalu besar untuk ditanggung sendiri? Alamilah kuasa doa yang mengubahkan hidup, dan temukan masa depan yang Yesus janjikan bagi Anda.",
+        "tombol": "Mari Berdoa",
+        "tautan": "#doa"
+      },
+      {
+        "judul": "Kursus Pendalaman Alkitab (Online)",
+        "teks": "“Firman-Mu itu pelita bagi kakiku dan terang bagi jalanku.” — Mazmur 119:105. Berakarlah pada kebenaran, supaya kita tidak tersapu oleh tipu daya apa pun.",
+        "tombol": "Mari Bergabung",
+        "tautan": "#belajar"
+      }
+    ]
+  },
+  "tentang": {
+    "judul": "Tentang Gereja Kami",
+    "sub": "GMAHK Jemaat Batu Hijau adalah bagian dari Gereja Masehi Advent Hari Ketujuh sedunia — jemaat yang beribadah pada hari Sabat, menantikan kedatangan Kristus yang kedua kali, dan melayani masyarakat di Maluk dan sekitarnya dengan kasih.",
+    "misi": "Memanggil setiap orang menjadi murid Yesus Kristus, memberitakan Injil kekal dengan setia, dan mempersiapkan jemaat menyambut kedatangan Kristus yang tidak lama lagi.",
+    "visi": "Jemaat yang berakar pada Alkitab, bertumbuh dalam persekutuan yang hangat, sehat secara rohani dan jasmani, serta menjadi terang bagi masyarakat Maluk dan Sumbawa Barat.",
+    "pendeta": {
+      "nama": "Pdtm. Grifin Sakul",
+      "jabatan": "Pendeta Jemaat GMAHK Batu Hijau",
+      "bio": "Pdtm. Grifin Sakul melayani Jemaat Batu Hijau dengan kerinduan menggembalakan jemaat dan generasi muda. Pelayanannya berfokus pada penggembalaan keluarga muda, pembinaan pemuda, dan pengajaran Alkitab yang membumi — Firman yang sama, disampaikan dengan bahasa hari ini.",
+      "ajakan": "Ada pergumulan yang ingin didoakan atau pertanyaan seputar iman? Silakan hubungi beliau melalui formulir doa & kontak di bawah.",
+      "gambar": "assets/img/pendeta.webp",
+      "gambar_alt": "Foto Pdtm. Grifin Sakul, pendeta jemaat GMAHK Batu Hijau"
+    }
+  },
+  "pelayanan": {
+    "judul": "Bidang Pelayanan",
+    "sub": "Enam bidang pelayanan jemaat kami setiap pekan. Silakan pilih yang paling sesuai dengan kebutuhan Anda — semua orang dipersilakan bergabung.",
+    "daftar": [
+      {
+        "ikon": "📖",
+        "judul": "Khotbah & Pengajaran",
+        "teks": "Khotbah Sabat dan pendalaman Alkitab yang setia pada teks, jelas, dan aplikatif untuk kehidupan sehari-hari."
+      },
+      {
+        "ikon": "🌱",
+        "judul": "Pemuda & Remaja",
+        "teks": "Pembinaan Pathfinder, kelas katekisasi, dan mentoring bagi anak muda agar teguh di tengah tantangan zaman."
+      },
+      {
+        "ikon": "🏠",
+        "judul": "Konseling Keluarga",
+        "teks": "Pendampingan pranikah, keluarga muda, dan pemulihan relasi — dengan janji temu dan kerahasiaan terjaga."
+      },
+      {
+        "ikon": "🙏",
+        "judul": "Doa & Kunjungan",
+        "teks": "Kunjungan doa ke rumah dan rumah sakit, serta rantai doa jemaat yang berdoa setiap hari pukul 05.00."
+      },
+      {
+        "ikon": "🥗",
+        "judul": "Kesehatan & Gaya Hidup",
+        "teks": "Seminar kesehatan, kelas memasak sehat, dan pola hidup alami sebagai bagian dari pekabaran kesehatan."
+      },
+      {
+        "ikon": "🎙️",
+        "judul": "Media & Podcast",
+        "teks": "Renungan audio 10 menit setiap pagi dan siaran khotbah melalui kanal media jemaat."
+      }
+    ]
+  },
+  "berita": {
+    "judul": "Seputar Jemaat",
+    "sub": "Kabar terbaru dari kehidupan dan pelayanan jemaat Batu Hijau.",
+    "utama": [
+      {
+        "label": "Berita",
+        "judul": "Ibadah Gabungan & Perjamuan Kudus Triwulan",
+        "teks": "Jemaat Batu Hijau berkumpul dalam ibadah gabungan yang hangat bersama jemaat-jemaat sekitar, ditutup dengan perjamuan kudus dan makan bersama.",
+        "tanggal": "22 November 2026",
+        "penulis": "jemaat",
+        "gambar": "assets/img/hero.webp",
+        "gambar_alt": "Ilustrasi jemaat sedang beribadah dan memuji Tuhan di gereja"
+      },
+      {
+        "label": "Berita",
+        "judul": "Kelas Pendalaman Alkitab Pemuda: 24 Anak Muda Selesaikan Seri Daniel",
+        "teks": "Selama delapan pekan, para pemuda menelusuri kitab Daniel pasal demi pasal — dan menutupnya dengan malam kesaksian.",
+        "tanggal": "15 November 2026",
+        "penulis": "jemaat",
+        "gambar": "assets/img/berita-2.webp",
+        "gambar_alt": "Ilustrasi kelompok pemuda sedang belajar Alkitab bersama sambil tertawa"
+      }
+    ],
+    "lainnya": [
+      {
+        "judul": "Bakti Sosial & Pemeriksaan Kesehatan Gratis di Maluk",
+        "tanggal": "8 November 2026"
+      },
+      {
+        "judul": "Retret Keluarga Muda: “Rumah yang Dipulihkan”",
+        "tanggal": "1 November 2026"
+      },
+      {
+        "judul": "Pelatihan Diaken & Diakones: Melayani dengan Hati",
+        "tanggal": "25 Oktober 2026"
+      },
+      {
+        "judul": "Kunjungan Doa ke Panti Asuhan Kasih Bunda",
+        "tanggal": "18 Oktober 2026"
+      }
+    ]
+  },
+  "wawasan": {
+    "judul": "Wawasan",
+    "sub": "Tulisan singkat untuk memperdalam iman dan praktik hidup sehari-hari.",
+    "artikel": [
+      {
+        "tag": [
+          "Sekolah Sabat",
+          "Wawasan"
+        ],
+        "judul": "Mengapa Sekolah Sabat & Pelayanan Perorangan?",
+        "ringkas": "Sekolah Sabat berakar pada kekudusan hari Sabat sebagai waktu perhentian, persekutuan, berdoa, dan mempelajari Firman Tuhan. Keluaran 20:8–11 memanggil kita untuk mengingat hari Sabat dan menguduskannya.",
+        "lanjutan": "Di kelas kecil, setiap anggota saling mengenal, saling mendoakan, dan bertumbuh bersama. Pelayanan perorangan melanjutkan apa yang dimulai di kelas: mengunjungi, mendengarkan, dan menolong satu orang pada satu waktu — seperti yang Yesus lakukan.",
+        "tanggal": "18 November 2026",
+        "penulis": "Pdtm. Grifin Sakul",
+        "gambar": "assets/img/renungan.webp",
+        "gambar_alt": "Ilustrasi Alkitab terbuka di meja kayu di samping secangkir kopi hangat di pagi hari"
+      },
+      {
+        "tag": [
+          "Kesehatan",
+          "Wawasan"
+        ],
+        "judul": "Mengapa Gereja Menaruh Perhatian Besar pada Pelayanan Kesehatan?",
+        "ringkas": "1 Korintus 6:19–20 berkata, “Atau tidak tahukah kamu, bahwa tubuhmu adalah bait Roh Kudus yang diam di dalam kamu…” Kesehatan bukan sekadar gaya hidup — itu bagian dari penyembahan.",
+        "lanjutan": "Istirahat yang cukup, makanan yang sederhana dan bergizi, udara segar, sinar matahari, dan kepercayaan kepada Tuhan adalah “dokter-dokter alami” yang menolong tubuh dan pikiran melayani dengan lebih baik.",
+        "tanggal": "11 November 2026",
+        "penulis": "Pdtm. Grifin Sakul",
+        "gambar": "assets/img/hero.webp",
+        "gambar_alt": "Ilustrasi jemaat memuji Tuhan bersama di dalam gereja yang terang"
+      }
+    ]
+  },
+  "khotbah": {
+    "judul": "Khotbah Terbaru",
+    "sub": "Saring berdasarkan kategori, lalu buka ringkasannya. Khotbah Sabat dan ibadah tengah minggu di Jemaat Batu Hijau.",
+    "kategori": [
+      {
+        "id": "semua",
+        "nama": "Semua"
+      },
+      {
+        "id": "keluarga",
+        "nama": "Keluarga"
+      },
+      {
+        "id": "pemuda",
+        "nama": "Pemuda"
+      },
+      {
+        "id": "doa",
+        "nama": "Doa"
+      },
+      {
+        "id": "nubuat",
+        "nama": "Nubuat"
+      }
+    ],
+    "daftar": [
+      {
+        "kategori": "keluarga",
+        "judul": "Rumah yang Dipulihkan Dimulai dari Meja Makan",
+        "ayat": "Mazmur 127:1",
+        "durasi": "38 menit",
+        "teaser": "Ketika komunikasi di rumah retak, Tuhan memulihkannya mulai dari hal kecil: makan dan berdoa bersama.",
+        "ringkasan": "Tiga langkah praktis — hadir sepenuhnya tanpa gawai, saling meminta maaf lebih dulu, dan menutup hari dengan doa singkat bersama."
+      },
+      {
+        "kategori": "pemuda",
+        "judul": "Teguh Seperti Daniel di Tengah Kota Besar",
+        "ayat": "Daniel 1:8",
+        "durasi": "35 menit",
+        "teaser": "Daniel masih remaja ketika ia berketetapan hati untuk tidak menajiskan dirinya. Keteguhan dimulai dari keputusan kecil.",
+        "ringkasan": "Ketetapan hati, komunitas yang sehat, dan keberanian yang santun — tiga modal anak muda untuk tetap setia di kampus dan tempat kerja."
+      },
+      {
+        "kategori": "doa",
+        "judul": "Berdoa Ketika Tidak Tahu Harus Berkata Apa",
+        "ayat": "Roma 8:26",
+        "durasi": "32 menit",
+        "teaser": "Ada musim ketika kata-kata habis. Roma 8 mengingatkan: Roh sendiri berdoa untuk kita dengan keluhan yang tak terucapkan.",
+        "ringkasan": "Doa bukan soal kalimat yang indah, melainkan hati yang datang. Praktik doa hening dan doa Mazmur untuk musim yang berat."
+      },
+      {
+        "kategori": "nubuat",
+        "judul": "Berjaga-jaga dengan Pengharapan, Bukan Ketakutan",
+        "ayat": "Matius 24:42",
+        "durasi": "41 menit",
+        "teaser": "Tanda-tanda zaman memanggil kita untuk berjaga-jaga — bukan dengan cemas, tetapi dengan hidup yang siap dan penuh kasih.",
+        "ringkasan": "Kesiapan sejati tampak pada karakter sehari-hari: setia dalam hal kecil, murah hati, dan tekun memberitakan pengharapan."
+      },
+      {
+        "kategori": "keluarga",
+        "judul": "Mengampuni Pasangan, Lagi dan Lagi",
+        "ayat": "Kolose 3:13",
+        "durasi": "36 menit",
+        "teaser": "“Sabarlah kamu seorang terhadap yang lain, dan ampunilah seorang akan yang lain.” Pengampunan adalah otot yang dilatih setiap hari.",
+        "ringkasan": "Membedakan mengampuni dan melupakan, memulihkan kepercayaan selangkah demi selangkah, dan kapan perlu pendampingan konseling."
+      },
+      {
+        "kategori": "pemuda",
+        "judul": "Media Sosial, Iman, dan Jati Diri",
+        "ayat": "Roma 12:2",
+        "durasi": "34 menit",
+        "teaser": "Jangan menjadi serupa dengan dunia ini — termasuk dunia di layar ponsel kita. Cara mengelola perhatian adalah soal rohani.",
+        "ringkasan": "Puasa notifikasi satu jam sebelum tidur, kurasi akun yang diikuti, dan menjadikan media sosial ladang kesaksian, bukan perbandingan."
+      }
+    ],
+    "kosong": "Tidak ada khotbah pada kategori ini."
+  },
+  "renungan": {
+    "judul": "Mari Belajar — Renungan Hari Ini",
+    "gambar": "assets/img/renungan.webp",
+    "gambar_alt": "Ilustrasi saat teduh pagi: Alkitab terbuka, kopi hangat, dan cahaya matahari",
+    "catatan": "Ingin belajar lebih dalam? Kelas Pendalaman Alkitab online bertemu setiap Rabu, 19.00 WITA — terbuka untuk siapa saja. Daftar melalui formulir doa & kontak di bawah, pilih kategori “Belajar Alkitab”.",
+    "daftar": [
+      {
+        "ayat": "“TUHAN adalah gembalaku, takkan kekurangan aku.”",
+        "ref": "Mazmur 23:1",
+        "isi": "Di tengah kebutuhan yang terasa mendesak, Daud tidak berkata gembalanya akan memberi segalanya — melainkan ia tidak akan kekurangan. Kehadiran Gembala itulah kecukupan kita hari ini."
+      },
+      {
+        "ayat": "“Janganlah hendaknya kamu kuatir tentang apa pun juga, tetapi nyatakanlah dalam segala hal keinginanmu kepada Allah dalam doa dan permohonan dengan ucapan syukur.”",
+        "ref": "Filipi 4:6",
+        "isi": "Kekuatiran tidak dilarang dengan keras — ia diganti dengan doa. Hari ini, tukarkan satu kekuatiran dengan satu doa."
+      },
+      {
+        "ayat": "“Firman-Mu itu pelita bagi kakiku dan terang bagi jalanku.”",
+        "ref": "Mazmur 119:105",
+        "isi": "Pelita tidak menerangi seluruh jalan sekaligus, hanya langkah berikutnya. Tuhan memimpin selangkah demi selangkah — dan itu cukup."
+      },
+      {
+        "ayat": "“Marilah kepada-Ku, semua yang letih lesu dan berbeban berat, Aku akan memberi kelegaan kepadamu.”",
+        "ref": "Matius 11:28",
+        "isi": "Undangan ini untuk yang letih, bukan yang sempurna. Datanglah apa adanya; kelegaan adalah pemberian, bukan upah."
+      },
+      {
+        "ayat": "“Kuatkan dan teguhkanlah hatimu, janganlah takut… sebab TUHAN, Allahmu, menyertai engkau.”",
+        "ref": "Yosua 1:9",
+        "isi": "Keberanian Yosua bukan karena ia kuat, melainkan karena ia disertai. Penyertaan yang sama dijanjikan untuk tugasmu hari ini."
+      },
+      {
+        "ayat": "“Ingatlah hari Sabat, untuk menguduskannya.”",
+        "ref": "Keluaran 20:8",
+        "isi": "Sabat adalah hadiah: berhenti bukan karena semua selesai, tetapi karena Tuhan yang memelihara. Beristirahatlah dalam Dia."
+      },
+      {
+        "ayat": "“Bersukacitalah dalam pengharapan, sabarlah dalam kesesakan, dan bertekunlah dalam doa!”",
+        "ref": "Roma 12:12",
+        "isi": "Tiga kata kerja untuk satu hari yang berat: bersukacita, bersabar, bertekun. Pilih satu dan praktikkan hari ini."
+      }
+    ]
+  },
+  "ayat_harian": [
+    {
+      "teks": "TUHAN adalah gembalaku, takkan kekurangan aku.",
+      "ref": "Mazmur 23:1",
+      "gambar": "assets/img/ayat-gembala.webp",
+      "alt": "Ilustrasi padang rumput hijau yang tenang dengan sungai kecil dan domba-domba merumput — latar ayat tentang Tuhan sebagai Gembala",
+      "tema": "Tuhan menggembalakan dan mencukupkan — hari ini Anda tidak berjalan sendiri."
+    },
+    {
+      "teks": "Tak berkesudahan kasih setia TUHAN, tak habis-habisnya rahmat-Nya, selalu baru tiap pagi; besar kesetiaan-Mu!",
+      "ref": "Ratapan 3:22–23",
+      "gambar": "assets/img/ayat-sunrise.webp",
+      "alt": "Ilustrasi matahari terbit keemasan di atas pegunungan — latar ayat tentang kasih setia Tuhan yang selalu baru tiap pagi",
+      "tema": "Kasih setia Tuhan selalu baru setiap pagi — sambut hari ini dengan pengharapan."
+    },
+    {
+      "teks": "Firman-Mu itu pelita bagi kakiku dan terang bagi jalanku.",
+      "ref": "Mazmur 119:105",
+      "gambar": "assets/img/ayat-jalan.webp",
+      "alt": "Ilustrasi jalan setapak di hutan dengan cahaya matahari menembus pepohonan — latar ayat tentang Firman sebagai pelita dan terang",
+      "tema": "Firman Tuhan menerangi langkah berikutnya — berjalanlah selangkah demi selangkah bersama-Nya."
+    },
+    {
+      "teks": "tetapi orang-orang yang menanti-nantikan TUHAN mendapat kekuatan baru: mereka seumpama rajawali yang naik terbang dengan kekuatan sayapnya; mereka berlari dan tidak menjadi lesu, mereka berjalan dan tidak menjadi lelah.",
+      "ref": "Yesaya 40:31",
+      "gambar": "assets/img/ayat-rajawali.webp",
+      "alt": "Ilustrasi rajawali terbang tinggi di atas pegunungan — latar ayat tentang kekuatan baru bagi yang menanti-nantikan Tuhan",
+      "tema": "Menanti-nantikan Tuhan memperbarui kekuatan — seperti rajawali naik terbang."
+    },
+    {
+      "teks": "Janganlah hendaknya kamu kuatir tentang apa pun juga, tetapi nyatakanlah dalam segala hal keinginanmu kepada Allah dalam doa dan permohonan dengan ucapan syukur.",
+      "ref": "Filipi 4:6",
+      "gambar": "assets/img/ayat-zaitun.webp",
+      "alt": "Ilustrasi kebun zaitun yang tenang diterangi cahaya keemasan — latar ayat tentang menyerahkan kekuatiran dalam doa",
+      "tema": "Gantikan kekuatiran dengan doa dan ucapan syukur hari ini."
+    },
+    {
+      "teks": "Marilah kepada-Ku, semua yang letih lesu dan berbeban berat, Aku akan memberi kelegaan kepadamu.",
+      "ref": "Matius 11:28",
+      "gambar": "assets/img/ayat-laut.webp",
+      "alt": "Ilustrasi laut yang tenang saat fajar dengan cahaya lembut di atas air — latar ayat undangan Yesus memberi kelegaan",
+      "tema": "Yesus mengundang yang letih untuk datang dan menerima kelegaan."
+    },
+    {
+      "teks": "Aku melayangkan mataku ke gunung-gunung; dari manakah akan datang pertolonganku? Pertolonganku ialah dari TUHAN, yang menjadikan langit dan bumi.",
+      "ref": "Mazmur 121:1–2",
+      "gambar": "assets/img/ayat-sunrise.webp",
+      "alt": "Ilustrasi pegunungan megah saat matahari terbit — latar ayat tentang pertolongan yang datang dari Tuhan",
+      "tema": "Pertolongan kita datang dari TUHAN, Pencipta langit dan bumi."
+    },
+    {
+      "teks": "Bukankah telah Kuperintahkan kepadamu: kuatkan dan teguhkanlah hatimu? Janganlah kecut dan tawar hati, sebab TUHAN, Allahmu, menyertai engkau, ke mana pun engkau pergi.",
+      "ref": "Yosua 1:9",
+      "gambar": "assets/img/ayat-sunrise.webp",
+      "alt": "Ilustrasi matahari terbit di atas pegunungan — latar ayat tentang keberanian karena Tuhan menyertai",
+      "tema": "Kuatkan hatimu — TUHAN menyertai ke mana pun engkau pergi hari ini."
+    },
+    {
+      "teks": "Ingatlah hari Sabat, untuk menguduskannya.",
+      "ref": "Keluaran 20:8",
+      "gambar": "assets/img/ayat-zaitun.webp",
+      "alt": "Ilustrasi kebun zaitun yang damai di cahaya sore — latar ayat tentang menguduskan hari Sabat",
+      "tema": "Sabat adalah hadiah perhentian dari Tuhan — ingatlah dan kuduskanlah."
+    },
+    {
+      "teks": "Sebab Aku ini mengetahui rancangan-rancangan apa yang ada pada-Ku mengenai kamu, demikianlah firman TUHAN, yaitu rancangan damai sejahtera dan bukan rancangan kecelakaan, untuk memberikan kepadamu hari depan yang penuh harapan.",
+      "ref": "Yeremia 29:11",
+      "gambar": "assets/img/ayat-laut.webp",
+      "alt": "Ilustrasi laut tenang saat fajar — latar ayat tentang rancangan damai sejahtera dan hari depan penuh harapan",
+      "tema": "Rancangan Tuhan adalah damai sejahtera — hari depanmu penuh harapan."
+    },
+    {
+      "teks": "Percayalah kepada TUHAN dengan segenap hatimu, dan janganlah bersandar kepada pengertianmu sendiri.",
+      "ref": "Amsal 3:5",
+      "gambar": "assets/img/ayat-jalan.webp",
+      "alt": "Ilustrasi jalan setapak bercahaya di hutan — latar ayat tentang percaya kepada Tuhan dengan segenap hati",
+      "tema": "Percaya segenap hati, bukan bersandar pada pengertian sendiri."
+    },
+    {
+      "teks": "Maka Yesus berkata pula kepada orang banyak, kata-Nya: “Akulah terang dunia; barangsiapa mengikut Aku, ia tidak akan berjalan dalam kegelapan, melainkan ia akan mempunyai terang hidup.”",
+      "ref": "Yohanes 8:12",
+      "gambar": "assets/img/ayat-jalan.webp",
+      "alt": "Ilustrasi cahaya terang menembus pepohonan di jalan hutan — latar ayat tentang Yesus sebagai terang dunia",
+      "tema": "Mengikut Yesus berarti berjalan dalam terang hidup, bukan kegelapan."
+    },
+    {
+      "teks": "Langit menceritakan kemuliaan Allah, dan cakrawala memberitakan pekerjaan tangan-Nya;",
+      "ref": "Mazmur 19:2",
+      "gambar": "assets/img/ayat-langit.webp",
+      "alt": "Ilustrasi langit malam berbintang dan Bima Sakti di atas pegunungan — latar ayat tentang langit menceritakan kemuliaan Allah",
+      "tema": "Langit menceritakan kemuliaan Allah — pandanglah karya tangan-Nya."
+    },
+    {
+      "teks": "Bersukacitalah dalam pengharapan, sabarlah dalam kesesakan, dan bertekunlah dalam doa!",
+      "ref": "Roma 12:12",
+      "gambar": "assets/img/ayat-sunrise.webp",
+      "alt": "Ilustrasi fajar keemasan di atas pegunungan — latar ayat tentang bersukacita dalam pengharapan dan bertekun dalam doa",
+      "tema": "Bersukacita dalam pengharapan, sabar dalam kesesakan, tekun dalam doa."
+    }
+  ],
+  "jadwal": {
+    "judul": "Jadwal Ibadah & Pelayanan",
+    "sub": "Semua jam dalam WITA. Lokasi: Gedung Gereja GMAHK Batu Hijau, Maluk, Kabupaten Sumbawa Barat, Nusa Tenggara Barat.",
+    "kelompok": [
+      {
+        "nama": "Sabat",
+        "item": [
+          {
+            "acara": "Sekolah Sabat",
+            "waktu": "08.30–10.30"
+          },
+          {
+            "acara": "Ibadah Khotbah",
+            "waktu": "11.00–12.30"
+          },
+          {
+            "acara": "Makan Bersama (Potluck)",
+            "waktu": "12.30–13.30"
+          },
+          {
+            "acara": "Pemuda Advent (PA)",
+            "waktu": "16.00–17.30"
+          }
+        ]
+      },
+      {
+        "nama": "Tengah Minggu",
+        "item": [
+          {
+            "acara": "Rabu — Pendalaman Alkitab Online",
+            "waktu": "19.00–20.00"
+          },
+          {
+            "acara": "Kamis — Konseling (janji temu)",
+            "waktu": "16.00–19.00"
+          },
+          {
+            "acara": "Jumat — Ibadah Vesper",
+            "waktu": "18.30–19.30"
+          }
+        ]
+      },
+      {
+        "nama": "Setiap Hari",
+        "item": [
+          {
+            "acara": "Rantai Doa Jemaat",
+            "waktu": "05.00"
+          },
+          {
+            "acara": "Renungan Audio Pagi",
+            "waktu": "05.30"
+          },
+          {
+            "acara": "Kunjungan Doa (jadwal)",
+            "waktu": "15.00–17.00"
+          }
+        ]
+      }
+    ]
+  },
+  "kesaksian": {
+    "judul": "Kesaksian Jemaat",
+    "sub": "Kesaksian anggota jemaat tentang pertolongan dan pemeliharaan Tuhan.",
+    "daftar": [
+      {
+        "isi": "“Setelah kunjungan doa ke rumah sakit, hati saya jauh lebih tenang. Saya merasa tidak berjalan sendiri menghadapi operasi suami saya.”",
+        "nama": "Ibu R. — 54 tahun",
+        "keterangan": "Jemaat Batu Hijau"
+      },
+      {
+        "isi": "“Di kelas Daniel, untuk pertama kalinya saya berani bertanya soal iman tanpa takut dihakimi. Sekarang saya melayani di tim musik.”",
+        "nama": "Kevin — 21 tahun",
+        "keterangan": "Pemuda Jemaat Batu Hijau"
+      },
+      {
+        "isi": "“Konseling pranikah menolong kami membicarakan hal-hal sulit sebelum menikah. Itu bekal terbesar pernikahan kami.”",
+        "nama": "Sari & Bimo",
+        "keterangan": "Pasangan muda"
+      }
+    ]
+  },
+  "dokumentasi": {
+    "judul": "Dokumentasi Kegiatan",
+    "sub": "Foto dan video dari ibadah, pelayanan, bakti sosial, kelas Alkitab, dan kesaksian jemaat.",
+    "kosong": "Belum ada dokumentasi yang ditambahkan.",
+    "daftar": []
+  },
+  "materi": {
+    "judul": "Materi, Foto & Unduhan",
+    "sub": "Materi di bawah ini membuka file di lokasi aslinya — Google Drive, YouTube, atau layanan penyimpanan tempat file itu berada.",
+    "kosong": "Belum ada materi yang ditambahkan.",
+    "daftar": []
+  },
+  "donasi": {
+    "judul": "Donasi & Persembahan",
+    "sub": "Dukung pelayanan GMAHK Batu Hijau melalui persembahan, perpuluhan, dan donasi. Pastikan nama penerima sesuai sebelum mengirim.",
+    "catatan": "Setelah transfer, Anda dapat mengonfirmasi melalui WhatsApp pendeta / bendahara jemaat agar persembahan tercatat dengan baik. Tuhan memberkati kemurahan hati Anda.",
+    "panduan": [
+      "Gunakan berita transfer: Persembahan / Perpuluhan / Donasi — Nama Anda",
+      "Simpan bukti transfer sampai konfirmasi diterima",
+      "Untuk donasi khusus (pembangunan, diakonia, dll), hubungi kami terlebih dahulu"
+    ],
+    "bank": "Bank Mandiri",
+    "nomor_rekening": "1610004484742",
+    "atas_nama": "GMAHK Batu Hijau"
+  },
+  "doa": {
+    "judul": "Mari Berdoa — Hubungi Kami",
+    "sub": "Isi formulir ini, lalu pilih WhatsApp atau Email. Pesan Anda akan tersusun otomatis. Tidak ada data yang disimpan di website ini.",
+    "kebutuhan": [
+      "Permohonan Doa",
+      "Belajar Alkitab",
+      "Konseling",
+      "Kunjungan Doa",
+      "Lainnya"
+    ]
+  },
+  "tanya_jawab": {
+    "judul": "Pertanyaan yang Sering Diajukan",
+    "daftar": [
+      {
+        "tanya": "Di mana lokasi gereja?",
+        "jawab": "Gedung Gereja GMAHK Batu Hijau berada di Maluk, Kabupaten Sumbawa Barat, Nusa Tenggara Barat."
+      },
+      {
+        "tanya": "Apakah saya perlu mendaftar untuk mengikuti ibadah?",
+        "jawab": "Tidak. Semua orang dipersilakan hadir. Untuk kelas Pendalaman Alkitab online, cukup daftar melalui formulir doa & kontak."
+      },
+      {
+        "tanya": "Bagaimana cara meminta kunjungan doa atau konseling?",
+        "jawab": "Isi formulir di bagian Mari Berdoa, pilih kebutuhan Anda, lalu kirim. Untuk keadaan darurat, telepon langsung pendeta atau diaken jaga."
+      }
+    ]
+  },
+  "ayat_harian_gambar": {
+    "_info": "Gambar latar ayat harian diambil otomatis dari Lorem Picsum (foto open source dari Unsplash, tanpa login). Satu gambar per hari, sama sepanjang hari. Jika gagal dimuat, dipakai gambar cadangan dari daftar ayat_harian.",
+    "aktif": true,
+    "sumber": "https://picsum.photos",
+    "lebar": 1600,
+    "tinggi": 900,
+    "awalan_seed": "gmahk-batuhijau"
+  }
+}
